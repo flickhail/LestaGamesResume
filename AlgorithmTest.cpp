@@ -78,7 +78,7 @@ void FillWithRand(int* array, size_t size)
 }
 
 
-// Compares the QuickSort() and std::sort algorithms by sorting time
+// Compares the QuickSort() and std::sort() algorithms by sorting time
 void StressTest(int arraySize, int iterations)
 {
 	int* array = new int[arraySize];
