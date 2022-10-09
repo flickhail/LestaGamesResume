@@ -13,7 +13,12 @@ static void InsertionSort(int* array, int arraySize) {
 	}
 }
 
-// The QuickSort algorithm
+// The QuickSort algorithm.
+// Complexity: 
+//	worst: 		O(n^2) - hard to reach this kind of situations, so this is not a big problem
+//	average:	O(nlogn) - because of this property this algorithm is "on average" fast, because of that it was called "Quicksort" by Anthony Hoare
+//	best:		O(nlogn)
+// This algorithm is best suited for a wide range of tasks due to it's rather high speed measured in CPU ticks.
 void QuickSort(int* array, int arraySize)
 {
 	// "30" is the array size from which the insertion sorting algorithm should start.
